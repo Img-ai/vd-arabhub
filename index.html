@@ -1,453 +1,222 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-   "https://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Tropical Storm Risk (TSR) for long-range forecasts of hurricane, typhoon and cyclone worldwide</title>
-<meta name="description" content="We offer current 5-Day forecast wind speeds in worldwide.">
-<meta name="keywords" content="tropical, storm, risk, hurricane, typhoon, cyclone, forecast, predict, maximum, wind, gust, windstorm, speed, weather, severe, warnings, probability, current, real-time">
-<meta name="Title" content="Tropical Storm Risk (TSR) for Hurricanes, Typhoons and Tropical Cyclones Forecast worldwide">
-<meta name="Author" content="Mark Saunders">
-<meta name="Subject" content="Welcome to Tropical Storm Risk">
-<meta name="robots" content="index,follow">
-<meta name="revisit-after" content="15 Days">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
-<style type="text/css">
-<!--
-@import "layoutstyle.css";
-body {
-    font-family: sans-serif;
-    font-size:10pt;
-    background:#FFFFFF;
-    color:black;
-    text-align:center;
-    }
-h1 {
-    color:#000066;
-    font-size:28pt; 
-    line-height:1.8em;
-    }
-h2 {font-size:18pt;}
-h3 {font-size:16pt;}
-h4 {font-size:14pt;}
-h5 {font-size:12pt;}
-h6 {font-size:10pt;}
-.normal {
-    font-weight:normal; 
-    display:inline;
-    }
-.wrap {white-space:normal;}
-.nowrap {white-space:nowrap;}
-a {
-    color:blue;
-    background:transparent;
-    }
-:visited {
-    color:blue;
-    background:transparent;
-    }
-:link {
-    color:blue;
-    background:transparent;
-    }
-img.bia {float:left; margin-right:10px;}
-#topmenu {
-    text-align:center;
-    background:#FFFFFF;
-    }
-#topmenu a {
-    font-size:9pt;
-    text-decoration:none;
-    font-weight:bold;
-    background:#FFFFFF;
-    }
-#topmenu :hover {
-    color:black;
-    text-decoration:underline;
-    }
-#topmenu :link {color:blue; background:#FFFFFF;}
-#topmenu :visited {color:blue; background:#FFFFFF;}
-#pagetitle {
-    font-size:14pt;
-    background:#0000CC;
-    color:white;
-    }
-#biabanner {
-    font-size:10pt;
-    font-weight:bold;
-    background:#CC0066;
-    color:white;
-    }
-#curr_link {text-align:center;}
-#curr_link a {
-        text-decoration:none;
-        font-weight:bold;
-        text-align:center;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Breaking Storm News</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
         }
-#curr_link :link {color:blue; background:#FFFFFF;}
-#curr_link :visited {color:blue; background:#FFFFFF;}
-#curr_link :hover {color:black; background:#FFFFFF;}
-.purplebanner {
-    background:#3333CC;
-    color:#FFFFFF;
-    font-size:8pt;
-    font-weight:bold;
-    text-transform:uppercase;
-    }
-#rightmenu a {
-    font-size:8pt;
-    font-weight:normal;
-    color:black;
-    background:transparent;
-    }
-#rightmenu a:hover {
-    font-weight:normal;
-    color:blue;
-    background:transparent;
-    }
-#rightmenu :link {
-    color:black; 
-    background:transparent;}
-#rightmenu :visited {
-    color:black;     
-    background:transparent;
-    }
-.redbanner {
-    background:#CC0066;
-    color:white;
-    font-size:8pt;
-    font-weight:bold;
-    }
-a img {
-    color: #FFFFFF;
-    background:transparent;
-    }
-table {
-    width:98%;
-    font-family:sans-serif;
-    font-size:9pt;
-    background:transparent;
-    text-align:left;
-    margin-top:6px;
-    margin-bottom:10px;
-    }
-th {
-    font-size:9pt;
-    background:#FFFFCC;
-    color:#000000;
-    }
-td {
-    font-family:sans-serif;
-    font-size:9pt;
-    }    
-td a {
-    text-decoration:none;
-    font-weight:bold;
-    }
-td :hover {
-    text-decoration:underline;
-    color:black;
-    background:transparent;
-    }
-address :hover {color:#000000;}
 
-#box {
-  margin: 10px;
-  padding: 10px;
-  font-size: 14px;
-  color: black;
-  background: #F4B182;
-  border: 2px;
-  border-color: #D94303;
-  border-style: solid;
-}
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+        }
 
--->
-</style>
+        .header {
+            background-color: #1a1a1a;
+            padding: 20px 0;
+        }
 
-<!--script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6295166797090094"
-     crossorigin="anonymous"></script-->
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
 
+        .logo h1 {
+            color: #fff;
+            float: left;
+        }
+
+        .navbar ul {
+            float: right;
+            list-style: none;
+        }
+
+        .navbar ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .video-section {
+            padding: 50px 0;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+
+        .video-section iframe {
+            width: 80%;
+            height: 400px;
+            max-width: 1000px;
+        }
+
+        .hero {
+            background-image: url('https://www.publicdomainpictures.net/pictures/320000/nahled/storm-at-sea-1574262778sd5.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            background-color: #ff6347;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .news-grid {
+            padding: 50px 0;
+        }
+
+        .news-item {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .news-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .news-item h3 {
+            font-size: 24px;
+            margin: 15px 0;
+        }
+
+        .news-item p {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .news-item .read-more {
+            color: #ff6347;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer {
+            background-color: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .footer p {
+            margin-bottom: 10px;
+        }
+
+        .social {
+            list-style: none;
+        }
+
+        .social li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        .social li a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
 </head>
-
-
 <body>
-
-<!--BEGINNING OF FRAME-->
-
-    <div id="frame">
-
-<!--HEADER-->
-        <div id="bannertitle">
-            <h1>Tropical Storm Risk (TSR)</h1>
-        </div>
-        <div id="bannerimage">
-            <a href="https://www.tropicalstormrisk.com"><img src="icons/logo.gif" alt="TSR logo"></a>
-        </div>
-
-<!--BEGINNING OF STANDARDS TEXT--><div class="hidden">
-
-        <strong>
-            This site validates as <a href="https://www.w3.org/TR/xhtml1">XHTML 1.0</a> 
-            using 
-            <a href="https://www.w3.org/Style/CSS/Buttons/">CSS</a>
-            in accordance with the<a href="https://www.w3.org/">
-            World Wide Web consortium</a> web standards. It is accessible to any browser 
-            or internet device but will look best in a 
-            <a title="Download a browser that complies with Web standards" 
-            href="https://www.webstandards.org/upgrade/">
-            browser that supports these standards.</a>
-        </strong>
-        <hr>
-
-<!--END OF STANDARDS TEXT--></div>
-
-
-
-<!--BEGINNING OF TOP MENU--><div id="topmenu">
-
-        <a href="index_.html">HOME</a> |
-        <a href="tracker/dynamic/main.html">STORM TRACKER</a> |
-        <a href="forecasts.html">FORECASTS</a> |
-        <a href="skill.html">SKILL</a> |
-        <a href="about.html">ABOUT</a> |
-        <a href="press.html">PRESS</a> |
-        <a href="public.html">PUBLICATIONS</a> |
-        <a href="staff.html">STAFF</a> |
-        <a href="posts.html">POSTS</a> |
-        <a href="links.html">LINKS</a>
-
-<!--END OF TOP MENU--></div>
-
-        <div class="hidden">
-            <hr>
-        </div>
-
-<!--END OF HEADER-->
-
-        <div id="pagetitle">
-            <!-- <h2 class="normal"> -->
-                <!-- Welcome to Tropical Storm Risk -->
-                About The Venture
-            <!-- </h2> -->
-        </div>
-        <br clear="all">
-<!--BEGINNING OF MAIN SECTION-->
-
-        <div id="main">
-
-<!--BEGINNING OF MAIN CONTENT (LHS OF PAGE)-->
-
-            <div id="content">
-
-                <!-- <div class="purplebanner"> -->
-                <!--     &nbsp;ABOUT THE VENTURE -->
-                <!-- </div> -->
-                <table width="100%" border="0"><tr>
-                <td width="20%">
-                <a href="https://www.nerc.ac.uk/latest/events/impact/finalists/">
-                <img class="bia" src="icons/IABNERC.gif" width=150px alt="NERC Impact Awards International Impact Award 2015">
-                </a>
-                </td>
-                <td width="80%">
-Tropical Storm Risk (TSR) offers a leading resource for predicting 
-and mapping tropical storm activity worldwide. The public TSR web site 
-provides forecasts and information to benefit basic risk awareness and 
-decision making from 
-tropical storms. The new TSR Business service and web site offers 
-real-time products 
-of unrivalled accuracy for the detailed mapping and prediction of tropical 
-storm impacts 
-worldwide. TSR has won two major insurance industry awards - the British 
-Insurance Awards for Risk Management (2006) and for London Market Innovation 
-(2004).
-                </td></tr></table>
-                <div class="purplebanner">
-                    &nbsp;CURRENT TROPICAL CYCLONE ACTIVITY
-                </div>
-                <br clear="all">
-                <div id="curr_link">
-                    <strong>
-There are 2 active systems as of 6 Sep, 2024 13:33 GMT
-                    </strong>
-                </div>
-                    <a href="tracker/dynamic/main.html">
-                    <img src="tracker/dynamic/images/current.png" alt="Storm Tracker Global Map" border="0">
-                    </a>
-                <div class="purplebanner">
-                    &nbsp;SEASONAL FORECASTS AND VERIFICATIONS
-                </div>
-                <table width="100%" border="1">
-                    <tr>
-                        <th class="wrap" width="22%">Seasonal Forecast or Verification Type</th>
-                        <th width="20%">Issue Date</th>
-                        <th width="58%">Description</th>
-                    </tr>
-		    <tr>
-                        <td class="wrap" width="22%"><a href="docs/TSRATLForecastAugust2024.pdf">Atlantic Hurricanes 2024</a></td>
-                        <td class="nowrap" width="20%">6th August 2024</td>
-                        <td class="wrap" width="58%">August Forecast Update for Atlantic Hurricane Activity in 2024</td>
-                    </tr>
-		    <tr>
-                        <td class="wrap" width="22%"><a href="docs/TSRNWPForecastAugust2024.pdf">NW Pacific Typhoons 2024</a></td>    
-                        <td class="nowrap" width="20%">7th August 2024</td>
-                        <td class="wrap" width="58%">August Forecast Update for NW Pacific Typhoon Activity in 2024</td>              
-                    </tr>
-                    <tr>
-                        <td class="wrap" width="22%"><a href="docs/TSRATL2023Verification.pdf">Atlantic Hurricanes 2023</a></td>
-                        <td class="nowrap" width="20%">20th November 2023</td>
-                        <td class="wrap" width="58%">Summary of 2023 Atlantic Tropical Cyclone Season and Verification of Authors' Seasonal Forecasts</td>
-                    </tr>
-                </table>
-                <div class="purplebanner">
-                    &nbsp;PAST SEASONAL FORECASTS
-                </div>
-                <br clear="all">
-                <img src="images/regions.png" alt="Past Seasonal Forecasts" align="MIDDLE" usemap="#formap" border="0">
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Storm Alert</h1>
             </div>
-
-<!--END OF MAIN CONTENT-->
-
-<!--BEGINNING OF RIGHT MENU (RHS OF PAGE)-->
-
-            <div id="rightmenu">
-<img class="bia" src="icons/BIA04wi_new3.gif" width=130px alt="London Market Innovation Award 2004 and Risk Management Award 2006">
-<p>&nbsp</p>
-<div class="redbanner">
-Tropical Storm Tracker
-</div>
-<p>
-<a href="tracker/dynamic/main.html">
-Storm Tracker Home
-</a><br>
-<a href="tracker/dynamic/W.html">
-NW Pacific
-</a><br>
-<a href="tracker/dynamic/202412W.html">
-YAGI
-</a><br>
-<a href="tracker/dynamic/202413W.html">
-LEEPI
-</a><br>
-</p>
-<!---->
-<div class="redbanner">TSR Business</div>
-<p style="padding-top:1px">
-   <a href="business">Home</a>
-    <br>
-    <a href="https://www.tropicalstormrisk.com/business/products1.html">Products</a>
-    <br>
-    <a href="https://www.tropicalstormrisk.com/business/accuracy1.html">Accuracy</a>
-<br>
-</p>
-
-
-<div class="redbanner">Free Email Registrations</div>
-<p>
-    <a href="http://eepurl.com/iybK5Y" target="_blank">Storm Alerts and Seasonal Forecasts</a><br>
-    <a href="https://eurotempest.us11.list-manage.com/unsubscribe?u=9387d98e5918ae63acc061a6f&id=fdfff82ef5" target="_blank">Unsubscribe</a><br>
-</p>
-<div class="redbanner">Tropical Storm Tracker Demos</div>
-<p>
-    <a href="trackerdemo1/40913/main.html">13 September, 2004</a>
-    <a href="trackerdemo2/katrina2005/200612N.html">Hurricane Katrina 2005</a><br>
-</p>
-<div class="redbanner">Seasonal Forecasts and Verifications</div>
-<p>
-    <a href="docs/TSRATLForecastAugust2024.pdf">Atlantic 2024</a><br>
-    <a href="docs/TSRNWPForecastAugust2024.pdf">NW Pacific 2024</a><br>
-    <a href="docs/TSRATL2023Verification.pdf">Atlantic 2023</a><br>
-</p>
-<div class="redbanner">Past Seasonal Forecasts</div>
-<p>
-    <a href="for_hurr.html">Atlantic</a><br>
-    <a href="for_typh.html">NW Pacific</a><br>
-    <a href="for_aus.html">Australia</a><br>
-</p>
-<div class="redbanner">About Tropical Storm Risk</div>
-<p>
-    <a href="about.html">Background</a><br>
-    <a href="docs/TSRBriefingDoc2004.pdf">Briefing Document</a><br>
-    <a href="terms-conditions.html">Terms and conditions</a><br>
-</p>
-<div class="redbanner">Contact</div>
-<p>
-    <a href="contacts.html">Email us</a><br>
-</p>
-<!---->
-                <br clear="all">
-            </div>
-
-<!--END OF RIGHT MENU-->
-
-            <br clear="all">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">World</a></li>
+                    <li><a href="#">Weather</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Rescue</a></li>
+                </ul>
+            </nav>
         </div>
+    </header>
 
-<!--END OF MAIN-->
-
-<!--BEGINNING OF BASE-->
-
-        <div id="base">
-
-<!--BEGINNING OF TSR LOGOS-->
-
-            <!--div id="tsrlogos">
-                <img src="icons/TSR_Logos.gif" alt="Sponsors logos" usemap="#sponsors" border="0">
-            </div-->
-
-<!--END OF TSR LOGOS-->
-
-<!--BEGINNING OF BASE TEXT-->
-
-            <div id="basetext">                
-
-                    <br>
-
-               <table border="0" style="width:740px;">
-                <tr>
-                <td>
-                  <img src="icons/EuroTempest-logo-small.png"  border="0">
-                </td>
-                <td>
-                    Researched and Developed by
-                    Mark Saunders, 
-                    <a href="mailto:frank.roberts@eurotempest.com"
-                         style="text-decoration:none">
-                    Frank Roberts</a>
-                    and <a href="mailto:adam.lea@eurotempest.com"
-                         style="text-decoration:none">
-                    Adam Lea</a><br>
-                    TSR Version 4.1 Copyright &copy 2024
-                    <a href="https://www.eurotempest.ltd" style="text-decoration:none">
-                        EuroTempest</a>, London, UK
-                    <br>
-Last updated on
-6 Sep, 2024 13:33 GMT
-                    <a href="https://validator.w3.org/check?uri=https://www.tropicalstormrisk.com/index_.html"><img alt="TSR passes W3C HTML 4.01 Quality Assurance" id="quality" src="https://www.tropicalstormrisk.com/images/valid-html401.gif" border="0"></a>
-                </td>
-		<td>
-                  <img src="icons/ucl-logo_small_new.jpg"  border="0">
-                </td>
-                </tr>
-                <br clear="all">
-            </div>
-
-<!--END OF BASETEXT-->
-        </div>
-
-<!--END OF BASE-->
-
-        <br clear="all">
-
+   <section class="video-section">
+    <div class="container">
+        <h2>The Most Dangerous Storm Has Arrived</h2>
+        <!-- Clickable Image Redirecting to YouTube -->
+        <a href="https://www.youtube.com/watch?v=abcd1234" target="_blank">
+            <img src="https://i.postimg.cc/pVzcfXvM/Design-sans-titre-1.jpg" alt="Watch the Video" style="width: 80%; height: auto;">
+        </a>
     </div>
+</section>
 
-<!--END OF FRAME-->
-<map name=formap>
-<area href="for_hurr.html" shape="rect" coords="160, 22, 276, 84" ALT="North Atlantic">
-<area href="for_typh.html" shape="rect" coords="452, 30, 560, 88" ALT="Northwest Pacific">
-<area href="for_aus.html" shape="rect" coords="445, 99, 546, 144" ALT="Southwest Pacific and Southeast Indian Oceans">
-</map>
+    <section class="hero">
+        <div class="container">
+            <h2>Entire States May Disappear</h2>
+            <p>Stay updated with live news on the catastrophic storm affecting millions of lives.</p>
+            <a href="#video" class="btn">Learn More</a>
+        </div>
+    </section>
 
+    <section class="news-grid">
+        <div class="container">
+            <div class="news-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_euAfMbqC3DiTTstYeR4nI0PAXZDlsSJy4g&s" alt="Storm Impact"> 
+                <h3>Massive Floods Expected as Storm Intensifies</h3>
+                <p>Authorities are warning of life-threatening floods across several states as the storm hits with full force.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="news-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpt0T5E04LVl47uNBiayQy9P8IH2CehNPa-Q&s" alt="Evacuation"> 
+                <h3>Millions Evacuated from Affected Areas</h3>
+                <p>Evacuations have been ordered in coastal regions as the storm moves inland, threatening millions of lives.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="news-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3E18cxtbMfI5d3bcKpcbNjchVefBFFLmr4Q&s" alt="Emergency Response"> 
+                <h3>Emergency Response Teams Mobilize</h3>
+                <p>Rescue teams are on high alert, preparing for a wave of emergencies as the storm ravages communities.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+        </div>
+    </section>
 
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Storm Alert. All Rights Reserved.</p>
+            <ul class="social">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
